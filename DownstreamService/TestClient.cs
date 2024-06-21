@@ -17,7 +17,7 @@
         public async Task TestCall()
         {
             var response = await _httpClient
-                .PostAsync("https://chemassets.ihs.com/ChemAssets/UnitOfMeasure/GetUnitOfMeasures?username=chemassetsConnect&password=witcher3TheB3st", null);
+                .PostAsync("", null);
         }
     }
 }
